@@ -1,5 +1,6 @@
 # STGC
 Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model
+Longrong Yang, Dong Shen, Chaoxiang Cai, Fan Yang, Size Li, Di Zhang, Xi Li
 
 This is the code for "Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model".
 
