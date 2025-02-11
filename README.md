@@ -1,8 +1,15 @@
-# STGC
-Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model
+# Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model
 
-Longrong Yang, Dong Shen, Chaoxiang Cai, Fan Yang, Size Li, Di Zhang, Xi Li
+## Introduction
 
-This is the code for "Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model".
+This repository is the official implementation of ICLR 2025: Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model.
+* [arxiv](https://arxiv.org/abs/2406.19905)
+* [ICLR 2025 openreview](https://openreview.net/forum?id=VxvnV6slP0)
 
-A main limitation of this work is that the performance increase brought by the proposed strategy is not sufficiently significant now. The possible reason is that our method needs to assume that there are severe conflicts in the training data. However, the 665k data we are using are not diverse enough. We have observed a more significant performance increase in the large private dataset within the company. Due to computer resource constraints, we plan to expand the size of the public dataset we are using for further experiments in the next few weeks. The code will be released after we finish all experiments.
+## News and ToDo List
+
+- [ ] Release checkpoints
+- [ ] Release code
+- [x] [2025-02-11] Accepted by ICLR 2025 🎉 
+
+The code will be released after the open-source review process on Kuaishou Technology.
